@@ -1,0 +1,61 @@
+Day1:
+
+Installing docker desktop 
+
+basics about docker
+
+
+What Docker Solves
+Docker packages:
+Application+Libraries+Dependencies+Runtime into a single unit called a Container.
+
+Developer Laptop
+       ↓
+QA Server
+       ↓
+Production
+
+runs exactly the same.
+
+Virtual Machine vs Container
+Virtual Machine
+Physical Server
+    ↓
+Hypervisor
+    ↓
+VM1 (Guest OS)
+VM2 (Guest OS)
+VM3 (Guest OS)
+
+Each VM has its own OS.
+
+Heavy.
+More RAM.
+Slow startup.
+
+Docker Container
+Physical Server
+      ↓
+Host OS
+      ↓
+Docker Engine
+      ↓
+Container1
+Container2
+Container3
+
+Containers share the host OS kernel.
+
+Lightweight.
+Fast startup.
+Less memory.
+Docker container share the OS kernel and provide many benefits such as less cost and faster result.
+
+## Day 1 Progress
+
+- Installed WSL 2
+- Installed Ubuntu 24.04
+- Installed Docker Desktop
+- Configured Docker WSL Integration
+- Fixed Docker permission issue by adding user to docker group
+- Verified Docker CLI access from Ubuntu
